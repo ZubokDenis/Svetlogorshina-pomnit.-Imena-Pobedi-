@@ -1054,7 +1054,7 @@ footer{
     }
 }
 }
-@media (max-width:320px){
+@media (max-width:540px){
     .photo h2{
         padding-top: 0;
         font-size: 25px;
@@ -1314,9 +1314,7 @@ footer{
     .svt-p span{
         margin-right: 79px;
     }
-    body{
-        max-width: 320px;
-    }
+    
     .about{
         flex-wrap: wrap !important;
         img{
