@@ -1,0 +1,313 @@
+.sedsko{
+    margin-top: -60px;
+}
+.person{
+
+    img{
+        border-radius: 10px;
+    }
+    .main{
+        gap: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        position: relative;
+        
+        .img{
+            display: flex;
+            gap: 30px;
+            .little-img{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+        .text{
+            h3{
+                color: white;
+                font-family: 'Manrope', sans-serif;
+                font-size: 40px;
+                line-height: 1.5;
+                font-weight: 900;
+            }
+            p{      
+                margin-top: 40px;
+                padding: 10px;
+                color: white;
+                font-family: 'Manrope', sans-serif;
+                font-size: 20px;
+                line-height: 1.5;
+                font-weight: 700;
+                background: rgba(81, 79, 79, 0.8);
+                border-radius: 10px;
+            }
+        }
+    }
+    .main::after{
+            position: absolute;
+            content: "";
+            width: 200%;
+            height: 2px;
+            background: #ffffff;
+            left: -25%;
+            bottom: -40px;
+    }
+
+}
+.bratkovskij{
+    
+    .img{
+        img{
+            width: 200px;
+            height: 290px;
+        }
+    }
+    .text{
+        .brat{
+            margin-top: 10px;
+            padding: 10px;
+                color: white;
+                font-family: 'Manrope', sans-serif;
+                font-size: 20px;
+                line-height: 1.5;
+                font-weight: 700;
+                background: rgba(81, 79, 79, 0.8);
+                border-radius: 10px;
+        }
+        h4{
+           
+                color: #F88F14;
+                font-family: 'Manrope', sans-serif;
+                font-size: 20px;
+                font-weight: 900;
+                margin-top: 15px;
+        }
+        p{
+            padding: 0 !important;
+            margin: 0 !important;
+            background: none !important;
+        }
+    }
+}
+.dikunimg{
+    width: 300px;
+}
+.dikun .img .little-img{
+    img{
+        width: 200px;
+    }
+}
+.zajats{
+    .img{
+        img{
+            width: 350px;
+            height: 450px;
+        }
+        .little-img{
+            img{
+                width: 300px;
+                height: 200px;
+            }
+            img:last-child{
+                width: 240px;
+            }
+        }
+    }
+}
+.stolyarovi{
+    h3{
+        width: 800px;
+    }
+}
+.voronov{
+    .img{
+        img{
+            width: 250px;
+            height: 400px;
+        }
+    }
+}
+.Germanchuk{
+    .img{
+        .imgimg{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        img{
+            width: 290px;
+            height: 250px;
+        }
+
+    }
+}
+.first{
+    .img{
+        img{
+        width: 350px;
+        height: 500px;
+        }
+        
+    }
+    
+    
+}
+.kozlovskij{
+        .img{
+            img{
+                width: 290px;
+                height: 400px;
+            }
+          
+        }
+    }
+.kramnikov{
+    .img{
+        
+        img{
+        width: 240px;
+        height: 340px;
+        }
+        .imgimg{
+            display: flex;
+            width: 500px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+      
+    }
+}
+.mihayuk{
+    .img img{
+        width: 300px;
+        height: 450px;
+    }
+}
+// .cpolohova{
+//     .img img{
+//         width: 300px;
+//         height: 450px;
+//     }
+// }
+.sheleg{
+    .img img{
+        width: 300px;
+        height: 450px;
+    }
+}
+.bogdan{
+    .img img{
+        width: 350px;
+        height: 250px;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+    }
+    // .little-img{
+    //     img{
+    //     width: 220px;
+    //     height: 135px;
+    //     }
+     
+    // }
+}
+.burak .img img{
+    width: 400px;
+    height: 550px;
+}
+.glushets{
+    .img{
+        img{
+            width: 350px;
+            height: 500px;
+        }
+        .little-img{
+            img{
+            width: 400px;
+            height: 235px;
+            }
+        }
+    }
+}
+.kot{
+    .img{
+        display: flex;
+        flex-direction: column;
+        .imgimg{
+            display: flex;
+            gap: 20px;
+            img{
+                width: 350px;
+                height: 500px;
+            }
+           
+        }
+        .little-img{
+            img{
+                width: 600px;
+                height: 200px;
+            }
+        }
+    }
+}
+.nedogorenko{
+    .img{
+        display: flex;
+        flex-direction: column;
+        .imgimg{
+            display: flex;
+            gap: 20px;
+            img{
+                width: 350px;
+                height: 500px;
+            }
+        }
+        .little-img{
+            img{
+                width: 720px;
+                height: 270px;
+            }
+        }
+    }
+}
+// .sivak{
+//     img{
+//         width: 350px;
+//         height: 500px;
+//     }
+// }
+
+.ustimenko{
+    .img{
+        img{
+            width: 350px;
+            height: 500px;
+        }
+        .little-img{
+            img{
+                width: 360px;
+                height: 235px;
+            }
+        }
+    }
+}
+.fedorenko{
+    .img{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        img{
+            width: 400px;
+            height: 550px;
+        }
+    }
+    .little-img{
+        margin-top: 30px;
+        img{
+            width: 450px;
+            height: 250px;
+        }
+    }
+}
