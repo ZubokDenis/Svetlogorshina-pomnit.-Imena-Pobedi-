@@ -154,7 +154,7 @@ header{
    
 }
 .history{
-         background: linear-gradient(to bottom  , #1b1c15, #3C3D2E); 
+         background: linear-gradient(to top  , #1b1c15, #3C3D2E); 
 
         padding-bottom: 60px;
         padding-top: 60px;
@@ -188,7 +188,7 @@ header{
     }
 }
 .m-history{
-     background: linear-gradient(to top  , #1b1c15, #3C3D2E); 
+     background: linear-gradient(to bottom  , #1b1c15, #3C3D2E); 
     h2{
                 font-family: 'Manrope', sans-serif;
                 font-size: 35px;
@@ -214,7 +214,7 @@ header{
 }
 .ww2{
         padding-bottom: 20px;
-         background: linear-gradient(to bottom  , #1b1c15, #3C3D2E); 
+         background: linear-gradient(to top  , #1b1c15, #3C3D2E); 
 
         .tabb{
             padding: 30px;
@@ -353,7 +353,7 @@ footer{
 
 .slide-sec{
     padding-bottom: 50px;
-    background: linear-gradient(to top  , #1b1c15, #3C3D2E); 
+    background: linear-gradient(to bottom  , #1b1c15, #3C3D2E); 
     .info{
         font-family: 'Manrope', sans-serif;
                 font-size: 35px;
@@ -1206,8 +1206,8 @@ footer{
         font-size: 17px;
     }
     .m-history .video .video-item iframe{
-        width: 280px !important;
-        height: 200px !important;
+        width: 100% !important;
+        height: 300px !important;
         
     }
     .tab-parent{
@@ -1232,8 +1232,13 @@ footer{
         }
         img:first-child{
             display: block;
-            width: 270px;
+            width: 100%;
+            height: 300px;
         }
+    }
+    .svt-3 .bagration-inf img{
+        width: 100% !important;
+        height: 70% !important;
     }
       .revi .name p{
         font-size: 13px;
@@ -1264,10 +1269,10 @@ footer{
        
       }
       .svt-1__r img{
-        width: 270px;
+        width: 100%;
       }
       .svt-1__r p{
-        width: 262.5px;
+        width: 98.5%;
       }
       .svt-1 h2{
         font-size: 42px ;
@@ -1279,8 +1284,8 @@ footer{
         font-size: 13px !important;
       }
       .svt-2 .svt-2-inf img {
-        width: 270px;
-        height: 200px;
+        width: 100%;
+        height: 70%;
         border: 3px solid black;
         border-radius: 20px;
 }
@@ -1300,10 +1305,6 @@ footer{
             }
         }
     }
-    .svt-3 .bagration-inf .svt-p{
-    
-        
-    }
     .svt-3 ul{
         .main-bg-li{
             font-size: 19px;
@@ -1313,8 +1314,8 @@ footer{
         display: flex;
         flex-wrap: wrap;
         iframe{
-            width: 270px !important;
-            height: 200px !important;
+            width: 100% !important;
+            height: 300px !important;
         }
         img{
             width: 270px !important;
@@ -1322,8 +1323,8 @@ footer{
         }
     }
     .sv4 iframe{
-        width: 270px;
-        height: 200px;
+        width: 100%;
+        height: 300px;
     }
     .svt-p span{
         margin-right: 79px;

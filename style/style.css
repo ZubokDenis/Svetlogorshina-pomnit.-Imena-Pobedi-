@@ -502,8 +502,8 @@ header .header-mid a:hover {
 }
 
 .history {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
-  background: linear-gradient(to bottom, #1b1c15, #3C3D2E);
+  background: -webkit-gradient(linear, left bottom, left top, from(#1b1c15), to(#3C3D2E));
+  background: linear-gradient(to top, #1b1c15, #3C3D2E);
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -551,8 +551,8 @@ header .header-mid a:hover {
 }
 
 .m-history {
-  background: -webkit-gradient(linear, left bottom, left top, from(#1b1c15), to(#3C3D2E));
-  background: linear-gradient(to top, #1b1c15, #3C3D2E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
+  background: linear-gradient(to bottom, #1b1c15, #3C3D2E);
 }
 
 .m-history h2 {
@@ -584,8 +584,8 @@ header .header-mid a:hover {
 
 .ww2 {
   padding-bottom: 20px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
-  background: linear-gradient(to bottom, #1b1c15, #3C3D2E);
+  background: -webkit-gradient(linear, left bottom, left top, from(#1b1c15), to(#3C3D2E));
+  background: linear-gradient(to top, #1b1c15, #3C3D2E);
 }
 
 .ww2 .tabb {
@@ -757,8 +757,8 @@ footer .footer .social ul {
 
 .slide-sec {
   padding-bottom: 50px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#1b1c15), to(#3C3D2E));
-  background: linear-gradient(to top, #1b1c15, #3C3D2E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
+  background: linear-gradient(to bottom, #1b1c15, #3C3D2E);
 }
 
 .slide-sec .info {
@@ -1765,8 +1765,8 @@ footer .footer .social ul {
     font-size: 17px;
   }
   .m-history .video .video-item iframe {
-    width: 280px !important;
-    height: 200px !important;
+    width: 100% !important;
+    height: 300px !important;
   }
   .tab-parent {
     -ms-flex-wrap: wrap;
@@ -1790,7 +1790,12 @@ footer .footer .social ul {
   }
   .revi .name .name-img img:first-child {
     display: block;
-    width: 270px;
+    width: 100%;
+    height: 300px;
+  }
+  .svt-3 .bagration-inf img {
+    width: 100% !important;
+    height: 70% !important;
   }
   .revi .name p {
     font-size: 13px;
@@ -1823,10 +1828,10 @@ footer .footer .social ul {
     font-size: 13px;
   }
   .svt-1__r img {
-    width: 270px;
+    width: 100%;
   }
   .svt-1__r p {
-    width: 262.5px;
+    width: 98.5%;
   }
   .svt-1 h2 {
     font-size: 42px;
@@ -1838,8 +1843,8 @@ footer .footer .social ul {
     font-size: 13px !important;
   }
   .svt-2 .svt-2-inf img {
-    width: 270px;
-    height: 200px;
+    width: 100%;
+    height: 70%;
     border: 3px solid black;
     border-radius: 20px;
   }
@@ -1870,16 +1875,16 @@ footer .footer .social ul {
         flex-wrap: wrap;
   }
   .bg-img iframe {
-    width: 270px !important;
-    height: 200px !important;
+    width: 100% !important;
+    height: 300px !important;
   }
   .bg-img img {
     width: 270px !important;
     height: 200px !important;
   }
   .sv4 iframe {
-    width: 270px;
-    height: 200px;
+    width: 100%;
+    height: 300px;
   }
   .svt-p span {
     margin-right: 79px;
