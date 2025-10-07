@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -876,7 +875,6 @@ footer .footer .social ul {
   cursor: pointer;
 }
 
-/* Стиль для картинок, которые не должны открываться */
 .no-open-img {
   cursor: default;
 }
@@ -1293,7 +1291,7 @@ footer .footer .social ul {
 }
 
 .svt-3 ul {
-  width: 400px !important;
+  width: 400px;
   background: rgba(255, 255, 255, 0.65);
   border-radius: 20px;
 }
@@ -1630,6 +1628,9 @@ footer .footer .social ul {
 }
 
 @media (max-width: 540px) {
+  .svt-3 ul {
+    width: 100%;
+  }
   .photo h2 {
     padding-top: 0;
     font-size: 25px;
@@ -1820,7 +1821,6 @@ footer .footer .social ul {
   }
   .svt-1__l p {
     font-size: 13px;
-    max-width: 260px;
   }
   .svt-1__r img {
     width: 270px;
@@ -1856,14 +1856,8 @@ footer .footer .social ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .bg-content ul {
-    width: 270px !important;
-  }
   .bg-content ul li {
     font-size: 13px;
-  }
-  .svt-3 .bagration-inf .svt-p {
-    max-width: 260px;
   }
   .svt-3 ul .main-bg-li {
     font-size: 19px;
