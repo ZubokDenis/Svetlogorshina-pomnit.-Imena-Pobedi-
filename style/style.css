@@ -706,9 +706,6 @@ footer .footer .contact ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
 }
 
 footer .footer .contact ul li img {
@@ -716,6 +713,22 @@ footer .footer .contact ul li img {
   width: 15px;
   fill: #ffffff;
   margin-right: 5px;
+}
+
+footer .footer .contact ul li a {
+  margin-top: 7px;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 footer .footer .social {

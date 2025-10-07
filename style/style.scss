@@ -314,12 +314,23 @@ footer{
                     font-weight: 400;
                     max-width: 300px;
                     display: flex;
-                    align-items: start;
+                   
                     img{
                         margin-top: 4px;
                         width: 15px;
                         fill: #ffffff;
                         margin-right: 5px;
+                    }
+                    a{
+                        margin-top: 7px;
+                    color: white;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 15px;
+                    line-height: 1.5;
+                    font-weight: 400;
+                    max-width: 300px;
+                    display: flex;
+                    align-items: start;
                     }
                 }
             }
