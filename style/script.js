@@ -1,15 +1,5 @@
 window.addEventListener('DOMContentLoaded', ()=>{
 
-
-
-
-
-
-
-
-
-
-
     const tabs = document.querySelectorAll('.tabContent'),
           tabContent = document.querySelectorAll('.tabb'),
           tabParent = document.querySelector('.tab-parent');
