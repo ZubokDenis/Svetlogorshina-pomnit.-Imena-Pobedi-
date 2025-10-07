@@ -755,6 +755,10 @@ footer .footer .social ul {
   margin-top: -50px;
 }
 
+.sedsko p {
+  max-width: 400px;
+}
+
 .slide-sec {
   padding-bottom: 50px;
   background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
