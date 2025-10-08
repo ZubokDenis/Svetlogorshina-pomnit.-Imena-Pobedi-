@@ -1316,7 +1316,7 @@ footer .footer .social ul {
 }
 
 .svt-3 .bagration-inf img {
-  height: 300px;
+  height: 200px;
   margin-top: 10px;
   border: 3px solid black;
   border-radius: 20px;
@@ -1360,8 +1360,8 @@ footer .footer .social ul {
 }
 
 .bg-info .bg-img iframe {
-  width: 450px;
-  height: 290px;
+  width: 300px;
+  height: 200px;
   border-radius: 20px;
 }
 
@@ -1495,6 +1495,9 @@ footer .footer .social ul {
 }
 
 @media (max-width: 960px) {
+  .person .main .text p {
+    max-width: 400px;
+  }
   .peace .peace-content {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
