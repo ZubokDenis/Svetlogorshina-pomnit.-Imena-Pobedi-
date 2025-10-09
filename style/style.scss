@@ -10,7 +10,7 @@ body{
 
 header{
     
-    padding: 0px 0 40px;
+    padding: 0 0 40px;
         // background-image: url('./img/vet.jpg');
        
         background: url("../img/fon.gif");
@@ -18,6 +18,7 @@ header{
         background-size: cover;
         
     .header-top{
+   
         p{
             display: none;
             font-family: 'Manrope', sans-serif;
@@ -60,6 +61,11 @@ header{
                     font-family: 'Manrope', sans-serif;
                     font-size: 20px;
                     font-weight: 700;
+                    transition: 0.3s;
+                }
+                a:hover{
+                    scale: 1.1;
+                    font-weight: 900;
                 }
                 .active{
                     
@@ -103,7 +109,7 @@ header{
     .header-mid{
        
         border-radius: 60px;
-        padding: 30px 0;
+        padding: 130px 0;
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
@@ -278,7 +284,9 @@ header{
     background: none;
     padding: 0;
 }
-
+.burger-nav {
+    overflow-y: auto; 
+}
 footer{
     padding: 20px 0;
     .footer{
@@ -332,7 +340,9 @@ footer{
                     display: flex;
                     align-items: start;
                     }
+                    
                 }
+                
             }
         }
         .social{
@@ -397,6 +407,10 @@ footer{
     gap: 10px;
     svg{
         cursor: pointer;
+        transition: 0.1s;
+    }
+    svg:hover{
+        scale: 1.2;
     }
 }
 .slide2{
@@ -417,6 +431,10 @@ footer{
 .social{
     ul li a img{
         cursor: pointer;
+        transition: 0.2s;
+    }
+    ul li a img:hover{
+        scale: 1.1;
     }
 }
 
@@ -433,12 +451,12 @@ footer{
             z-index: 1000;
         }
         
-        .modal img {
+ .modal img {
             max-width: 90%;
             max-height: 90%;
             cursor: zoom-in;
             transition: transform 0.3s ease;
-        }
+}
         
         .modal.active {
             display: flex;
@@ -954,7 +972,95 @@ footer{
         }
 
 
+
+
+#backToTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+            z-index: 1000;
+        }
+        
+        #backToTop.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        #backToTop:hover {
+            background-color: #555;
+        }
+
+
+
+
+
+        .burger-btn {
+            position: fixed;
+            top: 10px;
+            left: 20px;
+            width: 30px;
+            height: 30px;
+            background: #333;
+            border: none;
+            cursor: pointer;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 5px;
+        }
+        .burger-btn span {
+            display: block;
+            height: 3px;
+            width: 100%;
+            background: white;
+            transition: 0.3s;
+        }
+        .burger-nav {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: -550px;
+            width: 250px;
+            height: 100vh;
+            background: #333;
+            padding: 60px 20px 20px;
+            transition: 0.3s;
+            z-index: 999;
+            a{
+                color: white;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    font-weight: 700;
+                    margin-top: 15px;
+                    transition: 0.2s;
+                    
+            }
+            a:hover{
+                scale: 1.1;
+                color: #da5a20;
+            }
+        }
+        .burger-nav.active {
+            left: 0;
+        }
+
 @media (max-width:960px){
+   
+    
     .person .main .text p{
         max-width: 400px;
     }
@@ -1079,6 +1185,9 @@ footer{
 }
 }
 @media (max-width:540px){
+    .header-top{
+        width: 90% !important;
+    }
     .svt-3 ul{
         width: 100%;
     }
@@ -1193,7 +1302,7 @@ footer{
         width: 280px;
         height: 200px;
     }
-    nav{
+    .header-nav{
         display: none !important;
     }
     header .header-mid h1{
@@ -1358,3 +1467,5 @@ footer{
         }
     }
 }
+
+

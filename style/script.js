@@ -81,19 +81,24 @@ window.addEventListener('DOMContentLoaded', ()=>{
     const burgerMenu = document.querySelector('.burger-menu');
             const openButtons = document.querySelectorAll('.burger-open-button');
             const closeButtons = document.querySelectorAll('.burger-close-button');
-            
-            // Открытие меню
+
             openButtons.forEach(button => {
                 button.addEventListener('click', function() {
                     burgerMenu.classList.add('active');
                 });
             });
-            
-            // Закрытие меню
+  
             closeButtons.forEach(button => {
                 button.addEventListener('click', function() {
                     burgerMenu.classList.remove('active');
                 });
+            });
+             document.addEventListener('click', function(event) {
+                if (burgerMenu.classList.contains('active') && 
+                    !burgerMenu.contains(event.target) && 
+                    !event.target.closest('.burger-open-button')) {
+                    burgerMenu.classList.remove('active');
+                }
             });
             
 
@@ -106,8 +111,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     const closeBtn = document.querySelector('.close');
     
     let isZoomed = false;
-    
-    // Открытие модального окна при клике на фото (кроме .no-open-img)
+
     galleryImages.forEach(img => {
         img.addEventListener('click', function() {
             modalImage.src = this.src;
@@ -115,20 +119,17 @@ window.addEventListener('DOMContentLoaded', ()=>{
             isZoomed = false;
         });
     });
-    
-    // Закрытие модального окна
+
     closeBtn.addEventListener('click', function() {
         modal.classList.remove('active');
     });
-    
-    // Закрытие при клике на затемненную область
+
     modal.addEventListener('click', function(e) {
         if (e.target === modal) {
             modal.classList.remove('active');
         }
     });
-    
-    // Приближение/отдаление при клике на изображение
+
     modalImage.addEventListener('click', function(e) {
         e.stopPropagation();
         
@@ -142,11 +143,30 @@ window.addEventListener('DOMContentLoaded', ()=>{
         
         isZoomed = !isZoomed;
     });
-    
-    // Закрытие по клавише ESC
+
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') {
             modal.classList.remove('active');
         }
     });
+
+
+
+
+    const backToTopButton = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
 })
