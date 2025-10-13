@@ -100,6 +100,11 @@ button {
   height: 200px !important;
 }
 
+.kurach {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .bratkovskij .img img {
   width: 200px;
   height: 290px;
