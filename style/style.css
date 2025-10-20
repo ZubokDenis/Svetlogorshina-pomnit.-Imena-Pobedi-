@@ -35,57 +35,40 @@ button {
 .person img {
   border-radius: 10px;
 }
-
 .person .main {
   gap: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 80px;
   position: relative;
 }
-
 .person .main .img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
-
 .person .main .img .little-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 30px;
 }
-
 .person .main .text h3 {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 40px;
   line-height: 1.5;
   font-weight: 900;
 }
-
 .person .main .text p {
   margin-top: 40px;
   padding: 10px;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 700;
   background: rgba(81, 79, 79, 0.8);
   border-radius: 10px;
 }
-
 .person .main::after {
   position: absolute;
   content: "";
@@ -96,42 +79,28 @@ button {
   bottom: -40px;
 }
 
-.kurach .img .little-img img {
-  width: 400px !important;
-}
-
-.kurach .img .little-img {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
 .bratkovskij .img img {
   width: 200px;
   height: 290px;
 }
-
 .bratkovskij .text .brat {
   margin-top: 10px;
   padding: 10px;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 700;
   background: rgba(81, 79, 79, 0.8);
   border-radius: 10px;
 }
-
 .bratkovskij .text h4 {
   color: #F88F14;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   font-weight: 900;
   margin-top: 15px;
 }
-
 .bratkovskij .text p {
   padding: 0 !important;
   margin: 0 !important;
@@ -150,12 +119,10 @@ button {
   width: 350px;
   height: 450px;
 }
-
 .zajats .img .little-img img {
   width: 300px;
   height: 200px;
 }
-
 .zajats .img .little-img img:last-child {
   width: 240px;
 }
@@ -170,16 +137,10 @@ button {
 }
 
 .Germanchuk .img .imgimg {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 30px;
 }
-
 .Germanchuk .img img {
   width: 290px;
   height: 250px;
@@ -199,14 +160,10 @@ button {
   width: 240px;
   height: 340px;
 }
-
 .kramnikov .img .imgimg {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 500px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -224,15 +181,9 @@ button {
   width: 350px;
   height: 250px;
 }
-
 .bogdan .img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .burak .img img {
@@ -244,61 +195,40 @@ button {
   width: 350px;
   height: 500px;
 }
-
 .glushets .img .little-img img {
   width: 400px;
   height: 235px;
 }
 
 .kot .img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .kot .img .imgimg {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
-
 .kot .img .imgimg img {
   width: 350px;
   height: 500px;
 }
-
 .kot .img .little-img img {
   width: 600px;
   height: 200px;
 }
 
 .nedogorenko .img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .nedogorenko .img .imgimg {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
-
 .nedogorenko .img .imgimg img {
   width: 350px;
   height: 500px;
 }
-
 .nedogorenko .img .little-img img {
   width: 720px;
   height: 270px;
@@ -308,31 +238,22 @@ button {
   width: 350px;
   height: 500px;
 }
-
 .ustimenko .img .little-img img {
   width: 360px;
   height: 235px;
 }
 
 .fedorenko .img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .fedorenko .img img {
   width: 400px;
   height: 550px;
 }
-
 .fedorenko .little-img {
   margin-top: 30px;
 }
-
 .fedorenko .little-img img {
   width: 450px;
   height: 250px;
@@ -343,23 +264,40 @@ body {
   overflow-x: hidden;
 }
 
-.fade-in {
-  -webkit-animation: fadeInTab 0.3s ease;
-          animation: fadeInTab 0.3s ease;
+.slide-fade-in {
+  animation: slideFadeIn 0.5s ease-in-out;
 }
 
-.fade-out {
-  -webkit-animation: fadeOutTab 0.3s ease;
-          animation: fadeOutTab 0.3s ease;
+.slide-fade-out {
+  animation: slideFadeOut 0.5s ease-in-out;
 }
 
-@-webkit-keyframes fadeInTab {
+@keyframes slideFadeIn {
   from {
     opacity: 0;
+    transform: translateX(30px);
   }
   to {
     opacity: 1;
+    transform: translateX(0);
   }
+}
+@keyframes slideFadeOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+}
+.fade-in {
+  animation: fadeInTab 0.3s ease;
+}
+
+.fade-out {
+  animation: fadeOutTab 0.3s ease;
 }
 
 @keyframes fadeInTab {
@@ -370,16 +308,6 @@ body {
     opacity: 1;
   }
 }
-
-@-webkit-keyframes fadeOutTab {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
 @keyframes fadeOutTab {
   from {
     opacity: 1;
@@ -388,88 +316,61 @@ body {
     opacity: 0;
   }
 }
-
 header {
   padding: 0 0 40px;
   background: url("../img/fon.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 header .header-top {
   margin-bottom: 100px;
   padding: 10px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: rgba(255, 255, 255, 0.7);
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   text-align: end;
 }
-
 header .header-top p {
   display: none;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   font-weight: 700;
   border-radius: 30px;
 }
-
 header .header-top img {
   width: 60px;
 }
-
 header .header-top nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   text-align: right;
 }
-
 header .header-top nav .p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   gap: 20px;
 }
-
 header .header-top nav .p a {
   cursor: pointer;
   font-weight: 400;
   font-size: 21px;
   max-width: 600px;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   font-weight: 700;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 header .header-top nav .p a:hover {
   scale: 1.1;
   font-weight: 900;
 }
-
 header .header-top nav .p .active {
   font-weight: 700;
   position: relative;
 }
-
 header .header-top nav .p .active::after {
   position: absolute;
   content: "";
@@ -480,9 +381,8 @@ header .header-top nav .p .active::after {
   left: 0;
   border-radius: 5px;
 }
-
 header .header-top nav a {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 900;
@@ -490,39 +390,26 @@ header .header-top nav a {
   text-align: center;
   color: black;
 }
-
 header .header-top button {
   padding: 20px 30px;
   border-radius: 20px;
   background: #F88F14;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 27px;
 }
-
 header .header-mid {
   border-radius: 60px;
   padding: 130px 0;
   margin-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 header .header-mid h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-family: 'Manrope', sans-serif;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
   font-size: 53px;
   color: white;
   line-height: 110%;
@@ -530,7 +417,6 @@ header .header-mid h1 {
   max-width: 800px;
   margin-bottom: 40px;
 }
-
 header .header-mid p {
   font-family: "Cormorant", serif;
   font-optical-sizing: auto;
@@ -540,106 +426,72 @@ header .header-mid p {
   font-size: 29px;
   max-width: 760px;
 }
-
 header .header-mid a {
   padding: 10px 20px;
   border-radius: 20px;
   background: #F88F14;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 27px;
   width: 120px;
   margin-top: 20px;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 header .header-mid a:hover {
   scale: 1.1;
   background: #ff2c06;
 }
 
 .history {
-  background: -webkit-gradient(linear, left bottom, left top, from(#1b1c15), to(#3C3D2E));
   background: linear-gradient(to top, #1b1c15, #3C3D2E);
   padding-bottom: 60px;
   padding-top: 60px;
 }
 
 .header-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
 .header-bottom h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'Manrope', sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
   font-size: 53px;
   color: white;
   font-weight: 900;
 }
-
 .header-bottom p {
   margin-top: 30px;
   padding: 35px;
   background: rgba(128, 128, 128, 0.54);
   border-radius: 25px;
-  color: #ebe4e4;
-  font-family: 'Manrope', sans-serif;
+  color: rgb(235, 228, 228);
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
 }
 
 .m-history {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
   background: linear-gradient(to bottom, #1b1c15, #3C3D2E);
 }
-
 .m-history h2 {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 35px;
   line-height: 1.5;
   color: white;
   padding-top: 20px;
 }
-
 .m-history .video {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 30px;
 }
-
 .m-history .video .video-item iframe {
   border-radius: 20px;
   width: 620px;
@@ -649,78 +501,78 @@ header .header-mid a:hover {
 
 .ww2 {
   padding-bottom: 20px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#1b1c15), to(#3C3D2E));
   background: linear-gradient(to top, #1b1c15, #3C3D2E);
 }
-
 .ww2 .tabb {
   padding: 30px;
   border-radius: 20px;
   background: rgba(128, 128, 128, 0.54);
   color: #ffffff;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
 }
-
 .ww2 .tabb h3 {
   margin-top: 20px;
   color: #F88F14;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 30px;
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 10px;
 }
-
 .ww2 .tabb ul {
   list-style: circle;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 7px;
   margin-bottom: 25px;
 }
-
 .ww2 .tabb ul li {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
 }
 
 .tab-parent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 40px;
   background: #9c6f3c;
   border-radius: 20px;
 }
-
 .tab-parent .tabContent {
   color: white;
   cursor: pointer;
   padding: 30px;
   border-radius: 20px;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
-
+.tab-parent .tabContent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+.tab-parent .tabContent:hover::before {
+  left: 100%;
+}
 .tab-parent .active {
   background: #F88F14;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(248, 143, 20, 0.3);
 }
 
 .header {
@@ -736,86 +588,59 @@ header .header-mid a:hover {
 footer {
   padding: 20px 0;
 }
-
 footer .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 footer .footer .foot-title {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 900;
 }
-
 footer .footer .school-museum p {
   margin-top: 7px;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   line-height: 1.5;
   font-weight: 400;
   max-width: 300px;
 }
-
 footer .footer .contact ul li {
   margin-top: 7px;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   line-height: 1.5;
   font-weight: 400;
   max-width: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 footer .footer .contact ul li img {
   margin-top: 4px;
   width: 15px;
   fill: #ffffff;
   margin-right: 5px;
 }
-
 footer .footer .contact ul li a {
   margin-top: 7px;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   line-height: 1.5;
   font-weight: 400;
   max-width: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  align-items: start;
 }
-
 footer .footer .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 footer .footer .social ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 15px;
   margin-top: 5px;
@@ -831,12 +656,10 @@ footer .footer .social ul {
 
 .slide-sec {
   padding-bottom: 50px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
   background: linear-gradient(to bottom, #1b1c15, #3C3D2E);
 }
-
 .slide-sec .info {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 35px;
   line-height: 1.5;
   color: white;
@@ -846,48 +669,34 @@ footer .footer .social ul {
 .revi {
   padding-top: 30px;
 }
-
 .revi .name .name-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .revi .name .name-img img {
   width: 400px;
   height: 270px;
   border-radius: 5px;
 }
-
 .revi .name p {
   margin-top: 15px;
   padding-bottom: 15px;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 22px;
   line-height: 1.5;
   font-weight: 400;
 }
 
 .arrows {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   gap: 10px;
 }
-
 .arrows svg {
   cursor: pointer;
-  -webkit-transition: 0.1s;
   transition: 0.1s;
 }
-
 .arrows svg:hover {
   scale: 1.2;
 }
@@ -898,22 +707,19 @@ footer .footer .social ul {
 
 .info-p {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 22px;
   line-height: 1.5;
   max-width: 500px;
 }
-
 .info-p a {
   color: #F88F14;
 }
 
 .social ul li a img {
   cursor: pointer;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-
 .social ul li a img:hover {
   scale: 1.1;
 }
@@ -926,29 +732,19 @@ footer .footer .social ul {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   z-index: 1000;
 }
 
 .modal img {
   max-width: 90%;
   max-height: 90%;
-  cursor: -webkit-zoom-in;
   cursor: zoom-in;
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .modal.active {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -968,46 +764,36 @@ footer .footer .social ul {
 
 /* Класс для увеличенного состояния */
 .modal img.zoomed {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-  cursor: -webkit-zoom-out;
+  transform: scale(2);
   cursor: zoom-out;
 }
 
 .svt-p-4 {
   margin-top: 10px;
 }
-
 .svt-p-4 a {
   color: #da5a20;
 }
 
 .about-us h1 {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 42px;
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 30px;
 }
-
 .about-us .about {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .about-us .about p {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 22px;
   line-height: 1.5;
   max-width: 500px;
 }
-
 .about-us .about img {
   position: relative;
   width: 600px;
@@ -1018,7 +804,6 @@ footer .footer .social ul {
 .aboutt-us {
   position: relative;
 }
-
 .aboutt-us .ell {
   position: absolute;
   right: 0;
@@ -1030,42 +815,28 @@ footer .footer .social ul {
   position: relative;
   margin-top: 90px;
 }
-
 .locate h2 {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 42px;
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 30px;
 }
-
 .locate__info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .locate__info iframe {
   border-radius: 10px;
   width: 500px;
   height: 300px;
   display: block !important;
 }
-
 .locate__info .p-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .locate__info .p-info p:first-child {
   margin-bottom: 10px;
 }
@@ -1074,60 +845,40 @@ footer .footer .social ul {
   position: relative;
   padding-top: 110px;
 }
-
 .symbol h2 {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 42px;
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 30px;
 }
-
 .symbol__top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .symbol__top img {
   width: 400px;
   height: 260px;
   border-radius: 20px;
 }
-
 .symbol__top p {
   font-size: 31px;
 }
-
 .symbol__top p span {
   color: #F88F14;
 }
-
 .symbol__bottom {
   margin-top: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .symbol__bottom img {
   width: 600px;
   border-radius: 20px;
 }
-
 .symbol__bottom p {
   font-size: 29px;
 }
@@ -1136,66 +887,49 @@ footer .footer .social ul {
   position: relative;
   padding-top: 110px;
 }
-
 .coop__top p {
   font-size: 19px;
 }
-
 .coop__top img {
   height: 300px;
 }
-
 .coop__bottom {
   margin-top: 50px;
 }
-
 .coop__bottom img {
   height: 390px;
 }
-
 .coop__bottom ul {
   list-style: circle;
 }
-
 .coop__bottom ul .coop-title {
   font-weight: 900;
   list-style: none;
   font-size: 26px;
 }
-
 .coop__bottom ul li {
   font-size: 18px;
 }
 
 .peace {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
   background: linear-gradient(to bottom, #1b1c15, #3C3D2E);
   padding-top: 110px;
   padding-bottom: 40px;
 }
-
 .peace h2 {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 42px;
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 30px;
 }
-
 .peace .peace-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .peace .peace-content img {
   width: 500px;
   border-radius: 20px;
@@ -1227,22 +961,21 @@ footer .footer .social ul {
   background: rgba(255, 255, 255, 0.65);
   padding: 12px;
   border-radius: 30px;
-  color: black;
-  font-family: 'Manrope', sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
   max-width: 600px;
 }
-
 .svt-p span {
   font-weight: 900;
   margin-right: 40px;
 }
 
 .svt-title {
-  color: black;
-  font-family: 'Manrope', sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: "Manrope", sans-serif;
   font-size: 62px;
   line-height: 1.5;
   font-weight: 900;
@@ -1255,41 +988,32 @@ footer .footer .social ul {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .svt-1 .svt-rl {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .svt-1 h2 {
-  color: black;
-  font-family: 'Manrope', sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: "Manrope", sans-serif;
   font-size: 62px;
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 15px;
 }
-
 .svt-1__l p {
   background: rgba(255, 255, 255, 0.65);
   padding: 12px;
   border-radius: 30px;
-  color: black;
-  font-family: 'Manrope', sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
   max-width: 600px;
 }
-
 .svt-1__r {
   padding-top: 43px;
 }
-
 .svt-1__r img {
   width: 600px;
   border: 3px solid black;
@@ -1297,14 +1021,13 @@ footer .footer .social ul {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-
 .svt-1__r p {
   margin-top: -5px;
   background: rgba(255, 255, 255, 0.65);
   padding: 12px 0 12px 12px;
   border-radius: 30px;
-  color: black;
-  font-family: 'Manrope', sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
@@ -1321,7 +1044,7 @@ footer .footer .social ul {
 
 .s-border::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 2000px;
   height: 10px;
   background: #000000;
@@ -1330,14 +1053,9 @@ footer .footer .social ul {
 
 .galary {
   margin-top: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
@@ -1349,12 +1067,10 @@ footer .footer .social ul {
 
 .photo {
   padding-bottom: 20px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1b1c15), to(#3C3D2E));
   background: linear-gradient(to bottom, #1b1c15, #3C3D2E);
 }
-
 .photo h2 {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 35px;
   line-height: 1.5;
   color: white;
@@ -1371,16 +1087,10 @@ footer .footer .social ul {
   background-repeat: no-repeat;
   background-position-y: -100px;
 }
-
 .svt-2 .svt-2-inf {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .svt-2 .svt-2-inf img {
   width: 600px;
   height: 450px;
@@ -1393,71 +1103,52 @@ footer .footer .social ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .svt-3 ul {
   width: 400px;
   background: rgba(255, 255, 255, 0.65);
   border-radius: 20px;
 }
-
 .svt-3 ul .main-bg-li {
   font-size: 27px;
   font-weight: 900;
 }
-
 .svt-3 ul li {
   padding: 12px;
   border-radius: 30px;
-  color: black;
-  font-family: 'Manrope', sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 20px;
 }
-
 .svt-3 .bagration-inf img {
   height: 200px;
   margin-top: 10px;
   border: 3px solid black;
   border-radius: 20px;
 }
-
 .svt-3 .bagration-inf .svt-p {
   max-width: 900px;
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 .svt-3 .bagration-inf p:last-child {
   margin-top: 10px;
   height: 160px !important;
 }
-
 .svt-3 .bg-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
 
 .bg-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   gap: 10px;
 }
-
 .bg-info .bg-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .bg-info .bg-img iframe {
   width: 300px;
   height: 200px;
@@ -1471,17 +1162,10 @@ footer .footer .social ul {
 }
 
 .sv4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .sv4 iframe {
   border-radius: 20px;
   width: 600px;
@@ -1498,54 +1182,39 @@ footer .footer .social ul {
 }
 
 .bg-content {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .bg-img {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .name-img {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .tab-parent {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .menu-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .burger-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .burger-menu a {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: white;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .burger-menu a:hover {
   color: #F88F14;
 }
-
 .burger-menu p {
   color: #da5a20;
 }
@@ -1570,7 +1239,6 @@ footer .footer .social ul {
   width: 250px;
   height: 100%;
   background: #333;
-  -webkit-transition: left 0.3s;
   transition: left 0.3s;
   z-index: 1000;
 }
@@ -1607,7 +1275,6 @@ footer .footer .social ul {
   font-size: 20px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity 0.3s, visibility 0.3s;
   transition: opacity 0.3s, visibility 0.3s;
   z-index: 1000;
 }
@@ -1631,15 +1298,9 @@ footer .footer .social ul {
   border: none;
   cursor: pointer;
   z-index: 1000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 5px;
 }
 
@@ -1648,18 +1309,12 @@ footer .footer .social ul {
   height: 3px;
   width: 100%;
   background: white;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .burger-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   position: fixed;
   top: 0px;
   left: -550px;
@@ -1667,27 +1322,22 @@ footer .footer .social ul {
   height: 100vh;
   background: #333;
   padding: 60px 20px 20px;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   z-index: 999;
 }
-
 .burger-nav span {
   height: 70px;
   padding-top: 80px;
 }
-
 .burger-nav a {
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 700;
   margin-top: 15px;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-
 .burger-nav a:hover {
   scale: 1.1;
   color: #da5a20;
@@ -1702,27 +1352,23 @@ footer .footer .social ul {
     max-width: 400px;
   }
   .peace .peace-content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .peace .peace-content img {
     width: 270px;
     margin-top: 20px;
   }
   .symbol__top {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .symbol__bottom {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .ell2, .ell3, .ell4 {
     display: none !important;
   }
   .tab-parent {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
   body {
     overflow-x: hidden;
@@ -1748,46 +1394,34 @@ footer .footer .social ul {
     max-width: 300px;
   }
   .drozdov .img {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .kozlovskij .img {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .first .img {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .kot, .nedogorenko, .ustimenko {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .person .main::after {
     width: 127.2%;
   }
   .svt-rl, .svt-2-inf, .bg-info {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .svt-2-inf {
     gap: 20px;
   }
   .bg-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 15px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
+    align-items: start;
   }
   .sv4 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
   }
   .bg-content .svt-p {
@@ -1806,38 +1440,33 @@ footer .footer .social ul {
   .ell3 {
     display: none;
   }
+  .kot .img .little-img img {
+    width: 200px !important;
+  }
 }
-
 @media (max-width: 959px) {
   .locate__info {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .tab-parent {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .main {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .main .img {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .main .imgimg {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .main .footer {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .main .ell2, .main .ell3, .main .ell4 {
     display: none !important;
   }
 }
-
 @media (max-width: 540px) {
   .header-top {
     width: 90% !important;
@@ -1862,8 +1491,7 @@ footer .footer .social ul {
     display: none !important;
   }
   .symbol__top {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .symbol__top img {
     width: 280px;
@@ -1871,8 +1499,7 @@ footer .footer .social ul {
     margin-top: 15px;
   }
   .symbol__bottom {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .symbol__bottom img {
     width: 280px;
@@ -1897,11 +1524,8 @@ footer .footer .social ul {
     height: 200px;
   }
   .person .img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .person .img img {
     width: 170px;
@@ -1911,19 +1535,13 @@ footer .footer .social ul {
     padding-top: 80px;
   }
   .main {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .imgimg {
     width: 300px !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .glushets .img .little-img img {
     width: 280px;
@@ -1983,8 +1601,7 @@ footer .footer .social ul {
     height: 300px !important;
   }
   .tab-parent {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .tab-parent .tabContent {
     padding: 10px;
@@ -2015,8 +1632,7 @@ footer .footer .social ul {
     font-size: 13px;
   }
   .footer {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 19px;
   }
   footer .footer .school-museum p {
@@ -2030,10 +1646,7 @@ footer .footer .social ul {
     padding: 6px;
   }
   .bogdan .img {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .bogdan .img img {
     width: 280px;
@@ -2069,11 +1682,8 @@ footer .footer .social ul {
     font: 13px !important;
   }
   .bg-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .bg-content ul li {
     font-size: 13px;
@@ -2082,11 +1692,8 @@ footer .footer .social ul {
     font-size: 19px;
   }
   .bg-img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .bg-img iframe {
     width: 100% !important;
@@ -2104,8 +1711,7 @@ footer .footer .social ul {
     margin-right: 79px;
   }
   .about {
-    -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
   }
   .about img {
     width: 280px !important;
@@ -2118,5 +1724,4 @@ footer .footer .social ul {
   .header-top p {
     display: block !important;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -34,9 +34,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
     });
 
 
-    const slides = document.querySelectorAll('.name'),
-        prev = document.querySelector('.arrow-l'),
-        next = document.querySelector('.arrow-r');
+  
+    const slides = document.querySelectorAll('.name');
+    const prev = document.querySelector('.arrow-l');
+    const next = document.querySelector('.arrow-r');
+    const indicatorsContainer = document.getElementById('sliderIndicators');
 
 
 
@@ -45,8 +47,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
         SlideIndexz = 0;
 
     function slid(m){
-        m.forEach(item=>item.style.display="none");
+        m.forEach(item=>{
+            item.style.display="none";
+            item.classList.remove('slide-fade-in', 'slide-fade-out');
+        });
         m[SlideIndex].style.display="block";
+        m[SlideIndex].classList.add('slide-fade-in');
     }
     
 
@@ -69,7 +75,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 
     function plusSlide(n){
-        showSlides(SlideIndex+=n)
+
+        const currentSlide = slides[SlideIndex];
+        if (currentSlide) {
+            currentSlide.classList.add('slide-fade-out');
+        }
+        
+      
+        setTimeout(() => {
+            showSlides(SlideIndex+=n);
+        }, 250); 
     }
     next.addEventListener('click', ()=>{
         plusSlide(1)
