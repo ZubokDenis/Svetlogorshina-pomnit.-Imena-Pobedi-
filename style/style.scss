@@ -1293,13 +1293,19 @@ footer{
     
 }
 @media(max-width:959px){
+    .nedogorenko .img .little-img img{
+        width: 200px !important;
+    }
     .lapusta{
         padding-bottom: 60px;
         .img{
             .little-img img{
-                width: 350px !important;
+                width: 300px !important;
             }
             .little-img{
+                flex-direction: column !important;
+            }
+            .little-img-2 {
                 flex-direction: column !important;
             }
         }

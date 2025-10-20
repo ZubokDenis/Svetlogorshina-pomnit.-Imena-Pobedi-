@@ -1504,13 +1504,19 @@ footer .footer .social ul {
   }
 }
 @media (max-width: 959px) {
+  .nedogorenko .img .little-img img {
+    width: 200px !important;
+  }
   .lapusta {
     padding-bottom: 60px;
   }
   .lapusta .img .little-img img {
-    width: 350px !important;
+    width: 300px !important;
   }
   .lapusta .img .little-img {
+    flex-direction: column !important;
+  }
+  .lapusta .img .little-img-2 {
     flex-direction: column !important;
   }
   .locate__info {
