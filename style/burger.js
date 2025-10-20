@@ -2,54 +2,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 
 
-const galleryImages = document.querySelectorAll('img:not(.no-open-img)');
-    const modal = document.getElementById('imageModal');
-    const modalImage = document.getElementById('modalImage');
-    const closeBtn = document.querySelector('.close');
-    
-    let isZoomed = false;
-    
-    galleryImages.forEach(img => {
-        img.addEventListener('click', function() {
-            modalImage.src = this.src;
-            modal.classList.add('active');
-            modalImage.classList.remove('zoomed');
-            isZoomed = false;
-        });
-    });
-    
-    closeBtn.addEventListener('click', closeModal);
-    
-    modal.addEventListener('click', function(e) {
-        if (e.target === modal) {
-            closeModal();
-        }
-    });
-    
-    modalImage.addEventListener('click', function(e) {
-        e.stopPropagation(); 
-        
-        if (!isZoomed) {
-            this.classList.add('zoomed');
-            isZoomed = true;
-        } else {
-            
-            this.classList.remove('zoomed');
-            isZoomed = false;
-        }
-    });
-    
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-            closeModal();
-        }
-    });
-    
-    function closeModal() {
-        modal.classList.remove('active');
-        modalImage.classList.remove('zoomed');
-        isZoomed = false;
-    }
 
 
     

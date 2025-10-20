@@ -648,11 +648,21 @@
             </div>
         </div>
     </footer>
-    <div class="modal" id="imageModal">
-    <span class="close">&times;</span>
-    <img src="" alt="" id="modalImage">
-    </div>
     <button id="backToTop" title="Вернуться наверх">↑</button>
+    <div class="image-modal">
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <img class="modal-image" src="" alt="">
+                <button class="modal-close">&times;</button>
+                <div class="modal-controls">
+                    <button class="zoom-in">+</button>
+                    <button class="zoom-out">-</button>
+                    <button class="reset-zoom">100%</button>
+                </div>
+            </div>
+        </div>
+    </div>
      <script src="../style/burger.js"></script>
+     <script src="../style/image-viewer.js"></script>
 </body>
 </html>
