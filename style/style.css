@@ -96,13 +96,15 @@ button {
   bottom: -40px;
 }
 
-.kurach .little-img img {
-  height: 200px !important;
+.kurach .img .little-img img {
+  width: 400px !important;
 }
 
-.kurach {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.kurach .img .little-img {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
 }
 
 .bratkovskij .img img {
@@ -339,6 +341,52 @@ button {
 body {
   background: #1b1c15;
   overflow-x: hidden;
+}
+
+.fade-in {
+  -webkit-animation: fadeInTab 0.3s ease;
+          animation: fadeInTab 0.3s ease;
+}
+
+.fade-out {
+  -webkit-animation: fadeOutTab 0.3s ease;
+          animation: fadeOutTab 0.3s ease;
+}
+
+@-webkit-keyframes fadeInTab {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInTab {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOutTab {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOutTab {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 header {

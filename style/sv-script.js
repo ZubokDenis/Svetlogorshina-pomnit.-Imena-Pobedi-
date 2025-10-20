@@ -47,4 +47,13 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 behavior: 'smooth'
             });
         });
+
+
+           document.addEventListener('click', function(event) {
+                if (burgerMenu.classList.contains('active') && 
+                    !burgerMenu.contains(event.target) && 
+                    !event.target.closest('.burger-open-button')) {
+                    burgerMenu.classList.remove('active');
+                }
+            });
 })

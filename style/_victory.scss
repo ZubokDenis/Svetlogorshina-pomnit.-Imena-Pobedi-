@@ -54,12 +54,12 @@
     }
 
 }
-.kurach .little-img img{
-    
-    height: 200px !important;
+
+.kurach .img .little-img img{
+    width: 400px !important; 
 }
-.kurach{
-    flex-wrap: wrap;
+.kurach .img .little-img{
+    flex-direction: row !important;
 }
 .bratkovskij{
     

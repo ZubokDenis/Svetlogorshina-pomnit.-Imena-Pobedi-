@@ -117,6 +117,15 @@ const galleryImages = document.querySelectorAll('img:not(.no-open-img)');
             });
         });
 
+        document.addEventListener('click', function(event) {
+            const target = event.target;
+            if (burgerNav.classList.contains('active') &&
+                !burgerNav.contains(target) &&
+                !target.closest('#burgerBtn')) {
+                burgerNav.classList.remove('active');
+            }
+        });
+
 
 
 
@@ -136,4 +145,13 @@ const galleryImages = document.querySelectorAll('img:not(.no-open-img)');
                 behavior: 'smooth'
             });
         });
+
+
+           document.addEventListener('click', function(event) {
+                if (burgerMenu.classList.contains('active') && 
+                    !burgerMenu.contains(event.target) && 
+                    !event.target.closest('.burger-open-button')) {
+                    burgerMenu.classList.remove('active');
+                }
+            });
 })
