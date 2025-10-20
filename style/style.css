@@ -28,7 +28,26 @@ button {
 }
 
 .sedsko {
-  margin-top: -60px;
+  margin-top: 0;
+}
+
+.lapusta {
+  padding-bottom: 60px;
+}
+.lapusta .img .little-img img {
+  width: 250px !important;
+  height: 350px !important;
+}
+.lapusta .img .little-img {
+  flex-direction: row !important;
+}
+.lapusta .img .little-img-2 img {
+  width: 300px !important;
+  height: 400px !important;
+}
+.lapusta .img .little-img-2 {
+  gap: 20px;
+  display: flex;
 }
 
 .person img {
@@ -1485,6 +1504,15 @@ footer .footer .social ul {
   }
 }
 @media (max-width: 959px) {
+  .lapusta {
+    padding-bottom: 60px;
+  }
+  .lapusta .img .little-img img {
+    width: 350px !important;
+  }
+  .lapusta .img .little-img {
+    flex-direction: column !important;
+  }
   .locate__info {
     flex-wrap: wrap;
   }

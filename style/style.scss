@@ -1188,7 +1188,7 @@ footer{
         }
 
 @media (max-width:960px){
-   
+    
     
     .person .main .text p{
         max-width: 400px;
@@ -1293,6 +1293,17 @@ footer{
     
 }
 @media(max-width:959px){
+    .lapusta{
+        padding-bottom: 60px;
+        .img{
+            .little-img img{
+                width: 350px !important;
+            }
+            .little-img{
+                flex-direction: column !important;
+            }
+        }
+    }
       .locate__info{
         flex-wrap: wrap;
       }
