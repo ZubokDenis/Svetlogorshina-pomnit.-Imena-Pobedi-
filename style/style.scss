@@ -8,7 +8,6 @@ body{
 
 }
 
-// Анимации появления при скролле
 .fade-in-up {
     opacity: 0;
     transform: translateY(30px);
@@ -374,7 +373,7 @@ header{
     }
 }
 .m-history{
-     background: linear-gradient(to bottom  , #0a0a08, #1a1815);
+     background: linear-gradient(to bottom  , #1a1815, #0a0a08);
      opacity: 0;
      transform: translateY(30px);
      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -424,7 +423,7 @@ header{
 }
 .ww2{
         padding-bottom: 20px;
-         background: linear-gradient(to top  , #0a0a08, #1a1815);
+         background: linear-gradient(to bottom  , #0a0a08, #1a1815);
          opacity: 0;
          transform: translateY(30px);
          transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -734,6 +733,11 @@ footer{
                 line-height: 1.5;
                 font-weight: 900;
                 margin-bottom: 30px;
+                transition: transform 0.3s ease;
+                
+                &:hover {
+                    transform: translateX(5px);
+                }
     }
     .about{
         
@@ -741,30 +745,65 @@ footer{
         justify-content: space-between;
 
         p{
-            color: white;
+            color: rgb(220, 210, 200);
             font-family: 'Manrope', sans-serif;
                 font-size: 22px;
                 line-height: 1.5;
                 max-width: 500px;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                
+                &:hover {
+                    transform: translateX(3px);
+                }
         }
         img{
             position: relative;
             width: 600px;
             height: 400px;
             border-radius: 10px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            
+            &:hover {
+                transform: scale(1.03);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            }
         }
     }
 }
 .aboutt-us{
     position: relative;
+    background: linear-gradient(to bottom, #0a0a08, #1a1815);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    
+    &.section-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
     .ell{
         position: absolute;
         right: 0;
         top: -100px;
+        opacity: 0.3;
     }
 }
 .locate{
     padding-bottom: 40px;
+    background: linear-gradient(to bottom, #1a1815, #0a0a08);
+    padding-top: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    
+    &.section-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
     h2{
         color: white;
             font-family: 'Manrope', sans-serif;
@@ -772,9 +811,14 @@ footer{
                 line-height: 1.5;
                 font-weight: 900;
                 margin-bottom: 30px;
+                transition: transform 0.3s ease;
+                
+                &:hover {
+                    transform: translateX(5px);
+                }
     }
     position: relative;
-    margin-top: 90px;
+    margin-top: 0;
     &__info{
         display: flex;
         justify-content: space-between;
@@ -796,6 +840,17 @@ footer{
 .symbol{
     position: relative;
     padding-top: 110px;
+    background: linear-gradient(to bottom, #0a0a08, #1a1815);
+    padding-bottom: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    
+    &.section-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
     h2{
         color: white;
             font-family: 'Manrope', sans-serif;
@@ -803,6 +858,11 @@ footer{
                 line-height: 1.5;
                 font-weight: 900;
                 margin-bottom: 30px;
+                transition: transform 0.3s ease;
+                
+                &:hover {
+                    transform: translateX(5px);
+                }
     }
     &__top{
         display: flex;
@@ -812,11 +872,18 @@ footer{
             width: 400px;
             height: 260px;
             border-radius: 20px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            }
         }
         p{
             font-size: 31px;
+            color: rgb(220, 210, 200);
             span{
-                color:#F88F14;
+                color: #A0522D;
             }
         }
     }
@@ -828,27 +895,58 @@ footer{
         img{
             width: 600px;
             border-radius: 20px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            }
         }
         p{
             font-size: 29px;
+            color: rgb(220, 210, 200);
         }
     }
 }
 .coop{
     position: relative;
     padding-top: 110px;
+    background: linear-gradient(to top, #0a0a08, #1a1815);
+    padding-bottom: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    
+    &.section-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
     &__top{
         p{
             font-size: 19px;
         }
         img{
             height: 300px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            border-radius: 10px;
+            
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            }
         }
     }
     &__bottom{
         margin-top: 50px;
         img{
             height: 390px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            border-radius: 10px;
+            
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            }
         }
         ul{
             list-style:circle;
@@ -869,13 +967,27 @@ footer{
 
     padding-top: 110px;
     padding-bottom: 40px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    
+    &.section-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
     h2{
        color: white;
             font-family: 'Manrope', sans-serif;
                 font-size: 42px;
                 line-height: 1.5;
                 font-weight: 900;
-                margin-bottom: 30px; 
+                margin-bottom: 30px;
+                transition: transform 0.3s ease;
+                
+                &:hover {
+                    transform: translateX(5px);
+                }
     }
     .peace-content{
         display: flex;
@@ -886,6 +998,12 @@ footer{
             border-radius: 20px;
             position: relative;
             z-index: 999;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            }
         }
     }
 }
@@ -1242,7 +1360,6 @@ footer{
             background-color: #555;
         }
 
-// Стили для просмотрщика изображений
 .image-modal {
     display: none;
     position: fixed;
@@ -1284,7 +1401,7 @@ footer{
     }
     
     .modal-close {
-        position: fixed; // фиксируем относительно окна
+        position: fixed; 
         top: 20px;
         right: 30px;
         background: rgba(255, 255, 255, 0.2);
@@ -1307,7 +1424,7 @@ footer{
     }
     
     .modal-controls {
-        position: fixed; // фиксируем относительно окна
+        position: fixed; 
         bottom: 30px;
         left: 50%;
         transform: translateX(-50%);
@@ -1824,6 +1941,9 @@ footer{
         p{
             display: block !important;
         }
+    }
+    .search-container{
+        width: 70%;
     }
 }
 

@@ -179,6 +179,11 @@ button {
   bottom: -40px;
 }
 
+.mironihin .img img {
+  width: 200px;
+  height: 290px;
+}
+
 .bratkovskij .img img {
   width: 200px;
   height: 290px;
@@ -694,7 +699,7 @@ header .header-mid a:active {
 }
 
 .m-history {
-  background: linear-gradient(to bottom, #0a0a08, #1a1815);
+  background: linear-gradient(to bottom, #1a1815, #0a0a08);
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -739,7 +744,7 @@ header .header-mid a:active {
 
 .ww2 {
   padding-bottom: 20px;
-  background: linear-gradient(to top, #0a0a08, #1a1815);
+  background: linear-gradient(to bottom, #0a0a08, #1a1815);
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -1017,38 +1022,71 @@ footer .footer .social ul {
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.about-us h1:hover {
+  transform: translateX(5px);
 }
 .about-us .about {
   display: flex;
   justify-content: space-between;
 }
 .about-us .about p {
-  color: white;
+  color: rgb(220, 210, 200);
   font-family: "Manrope", sans-serif;
   font-size: 22px;
   line-height: 1.5;
   max-width: 500px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about-us .about p:hover {
+  transform: translateX(3px);
 }
 .about-us .about img {
   position: relative;
   width: 600px;
   height: 400px;
   border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.about-us .about img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .aboutt-us {
   position: relative;
+  background: linear-gradient(to bottom, #0a0a08, #1a1815);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.aboutt-us.section-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .aboutt-us .ell {
   position: absolute;
   right: 0;
   top: -100px;
+  opacity: 0.3;
 }
 
 .locate {
   padding-bottom: 40px;
+  background: linear-gradient(to bottom, #1a1815, #0a0a08);
+  padding-top: 60px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   position: relative;
-  margin-top: 90px;
+  margin-top: 0;
+}
+.locate.section-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .locate h2 {
   color: white;
@@ -1057,6 +1095,10 @@ footer .footer .social ul {
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.locate h2:hover {
+  transform: translateX(5px);
 }
 .locate__info {
   display: flex;
@@ -1079,6 +1121,15 @@ footer .footer .social ul {
 .symbol {
   position: relative;
   padding-top: 110px;
+  background: linear-gradient(to bottom, #0a0a08, #1a1815);
+  padding-bottom: 60px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.symbol.section-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .symbol h2 {
   color: white;
@@ -1087,6 +1138,10 @@ footer .footer .social ul {
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.symbol h2:hover {
+  transform: translateX(5px);
 }
 .symbol__top {
   display: flex;
@@ -1097,12 +1152,18 @@ footer .footer .social ul {
   width: 400px;
   height: 260px;
   border-radius: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.symbol__top img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 .symbol__top p {
   font-size: 31px;
+  color: rgb(220, 210, 200);
 }
 .symbol__top p span {
-  color: #F88F14;
+  color: #A0522D;
 }
 .symbol__bottom {
   margin-top: 15px;
@@ -1113,26 +1174,53 @@ footer .footer .social ul {
 .symbol__bottom img {
   width: 600px;
   border-radius: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.symbol__bottom img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 .symbol__bottom p {
   font-size: 29px;
+  color: rgb(220, 210, 200);
 }
 
 .coop {
   position: relative;
   padding-top: 110px;
+  background: linear-gradient(to top, #0a0a08, #1a1815);
+  padding-bottom: 60px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.coop.section-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .coop__top p {
   font-size: 19px;
 }
 .coop__top img {
   height: 300px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 10px;
+}
+.coop__top img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 .coop__bottom {
   margin-top: 50px;
 }
 .coop__bottom img {
   height: 390px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 10px;
+}
+.coop__bottom img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 .coop__bottom ul {
   list-style: circle;
@@ -1151,6 +1239,13 @@ footer .footer .social ul {
   background: linear-gradient(to bottom, #0a0a08, #1a1815);
   padding-top: 110px;
   padding-bottom: 40px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.peace.section-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .peace h2 {
   color: white;
@@ -1159,6 +1254,10 @@ footer .footer .social ul {
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.peace h2:hover {
+  transform: translateX(5px);
 }
 .peace .peace-content {
   display: flex;
@@ -1170,6 +1269,11 @@ footer .footer .social ul {
   border-radius: 20px;
   position: relative;
   z-index: 999;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.peace .peace-content img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .ell2 {
@@ -2058,5 +2162,8 @@ footer .footer .social ul {
   }
   .header-top p {
     display: block !important;
+  }
+  .search-container {
+    width: 70%;
   }
 }/*# sourceMappingURL=style.css.map */
